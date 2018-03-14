@@ -1,0 +1,17 @@
+{
+    "name": "douginwai/Seckill",
+    "authors": [
+        {
+            "name": "douginwai",
+            "email": "douginwai@gmail.com"
+        }
+    ],
+	"minimum-stability": "dev", 
+    "require": {},
+    "autoload": {  
+        "psr-4": {  
+            "douginwai\\Seckill\\": "src"  
+        }  
+    }  
+}
+
