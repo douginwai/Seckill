@@ -1,5 +1,5 @@
 <?php
-namespace Seckill\Impl;
+namespace seckill\Impl;
 
 use seckill\Inter\CacheQueueRepositoriesInterface;
 use Redis;
@@ -11,7 +11,7 @@ class RedisQueueRepositories implements CacheQueueRepositoriesInterface
     private $lkey;
 
     public function __construct($redis_config, $lkey)
-    {
+    { 
         $ip = $redis_config['IP'];
         $port = $redis_config['PORT'];
         $redis_connection = new Redis();

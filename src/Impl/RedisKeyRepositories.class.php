@@ -27,7 +27,7 @@ class RedisKeyRepositories implements CacheKeyRepositoriesInterface
         return $this->handler->del($key);
     }
 
-    public function set($key, $obj, $param = [])
+    public function set($key, $obj, $param = []) 
     {
         return $this->handler->set($key, $obj, $param);
     }

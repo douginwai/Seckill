@@ -1,5 +1,5 @@
 <?php
-namespace Seckill\Impl;
+namespace seckill\Impl;
 
 use seckill\Inter\StockQueueInterface;
 
