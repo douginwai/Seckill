@@ -1,5 +1,5 @@
 {
-    "name": "douginwai/Seckill",
+    "name": "douginwai/seckill",
     "authors": [
         {
             "name": "douginwai",
@@ -10,7 +10,7 @@
     "require": {},
     "autoload": {  
         "psr-4": {  
-            "douginwai\\Seckill\\": "src"  
+            "douginwai\\seckill\\": "src"  
         }  
     }  
 }
